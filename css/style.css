@@ -1,6 +1,7 @@
-h1{ text-align: center; margin-top:150px;}
-.link{text-align: center; padding-top:10px;}
-.link a{ display:inline-block; background-color: white; color:black;}
+h1{ text-align: center; margin-top:100px; margin-bottom:0;}
+h2{text-align:center; margin-top:0; padding-top:10px; margin-bottom:30px; color:darkgrey;}
+.link{text-align: center; padding-top:10px; margin-bottom: 30px;}
+.link a{ display:inline-block; background-color: white; color:black; padding:0.4em 0.9em; font-size:2em;}
 
 .link a:hover{-webkit-transition: background-color 1000ms linear,color 1000ms linear;
     -moz-transition: background-color 1000ms linear,color 1000ms linear;
@@ -8,6 +9,9 @@ h1{ text-align: center; margin-top:150px;}
     -ms-transition: background-color 1000ms linear,color 1000ms linear;
     transition: background-color 1000ms linear,color 1000ms linear;}
 
-.link.twtt a:hover{ background-color:#00B0ED; color:white;}
-.link.linked a:hover{background-color:#0077B5; color:white;}
-.link.github a:hover{background-color:#F5F5F5; color:black;}
+.link.twtt a{ background-color:#00B0ED; color:white;}
+.link.twtt a:hover{ background-color:black;}
+.link.linked a{background-color:#0077B5; color:white;}
+.link.linked a:hover{background-color: black;}
+.link.github a{background-color:#F5F5F5; color:black;}
+.link.github a:hover{background-color:white;}
